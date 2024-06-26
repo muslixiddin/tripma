@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 
     <style>
@@ -46,9 +46,6 @@
         </nav>
     </header>
     <!-- HEADER END -->
-
-
-    <!-- HERO START -->
 
     <section class="cc">
     
@@ -92,6 +89,9 @@
         </div>
 
     </section>
+
+    <!-- HERO START -->
+
 
     <!-- HERO END -->
 
@@ -182,9 +182,9 @@
     </section>
 
 
-    <footer class="cc mt-40">
-        <div class="grid grid-cols-4 md:grid md:grid-cols-2">
-            <div> <img src="./imgs/logo.svg" alt=""></div>
+    <footer class="cc mt-40 sm:hidden md:flex">
+        <div class=" md:grid md:grid-cols-4 gap-4">
+             <img src="./imgs/logo.svg" alt="" class="sm:hidden md:block">
             <div> 
                 <ul>
                 <li><a href="#">about</a></li>
@@ -195,6 +195,7 @@
                 <li><a href="#">about</a></li>
                 <li><a href="#">about</a></li>
             </ul>
+            </div>
         </div>
             <div>
                 <ul>
@@ -214,6 +215,42 @@
                     <li><a href="3">Get the app</a></li>
                 </ul>
             </div>
+        </div>
+    </footer>
+
+    <footer class="cc md:hidden">
+        <div class="flex items-center gap-3">
+            <img src="./imgs/logo.svg" alt="">
+            <select class="bg-[#c9c7c7] py-2 px-2 mt-3" className="select select-bordered w-full mt-1">
+                <option disabled selected class="flex"> From where?</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+              </select>
+            <select class="bg-[#c9c7c7] py-2 px-2 mt-3" className="select select-bordered w-full mt-1">
+                <option disabled selected class="flex"> From where?</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+              </select>
+            <select class="bg-[#c9c7c7] py-2 px-2 mt-3" className="select select-bordered w-full mt-1">
+                <option disabled selected class="flex"> From where?</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+                <option>Option 3</option>
+              </select>
         </div>
     </footer>
    
